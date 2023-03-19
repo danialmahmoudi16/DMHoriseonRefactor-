@@ -1,21 +1,21 @@
 # Code Refactor Starter Code
 
 # User Story and Acceptance Criteria
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
+- AS A marketing agency
+- I WANT a codebase that follows accessibility standards
+- SO THAT our own site is optimized for search engines
 
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
+- GIVEN a webpage meets accessibility standards
+- WHEN I view the source code
+- THEN I find semantic HTML elements
+- WHEN I view the structure of the HTML elements
+- THEN I find that the elements follow a logical structure independent of styling and positioning
+- WHEN I view the image elements
+- THEN I find accessible alt attributes
+- WHEN I view the heading attributes
+- THEN they fall in sequential order
+- WHEN I view the title element
+- THEN I find a concise, descriptive title
 
 # Changes and Improvements 
 - change code to become semantic elements -->
@@ -42,3 +42,8 @@ THEN I find a concise, descriptive title
 
 - On Line 7, change "website" to "Horiseon" 
 
+
+![image](https://user-images.githubusercontent.com/122760940/226210919-16998a6c-0852-4cf1-a704-ce174dcd4c6e.png)
+
+
+# URL of Deployed Application
