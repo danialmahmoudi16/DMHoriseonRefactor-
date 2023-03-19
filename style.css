@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* overall background color of the web page */
 body {
     background-color: #d9dcd6;
 }
 
+/* created padding and added color for top section of the webpage, above the hero image */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,6 +17,7 @@ body {
     color: #ffffff;
 }
 
+/* formatted the Horiseon text in the first header (top of webpage) */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -24,6 +27,7 @@ body {
     color: #d9dcd6;
 }
 
+/* formatted the three listed sections at top of webpage to have padding and margin to be located to the right side of the webpage */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,6 +36,7 @@ body {
     font-size: 20px;
 }
 
+/* individually formatted the 3 different listed sections at the top of the webpage */
 .header div ul {
     list-style-type: none;
 }
@@ -50,15 +55,73 @@ p {
     font-size: 16px;
 }
 
+/* brings in the hero image of a digital marketing meeting and formats it to proprly fit below the header */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("assets/images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
 
+/* Moved the 3 specific sections of the webpage here to properly order the css based on HTML structure */
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Using the float classes all 3 id's are formatted to desireable conditions */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -75,6 +138,7 @@ p {
     margin-left: 20px;
 }
 
+/* All benefits are formatted specifically in their individual classes and also the overall class for the benefits is formatted to locate them to the right side of the webpage */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -134,60 +198,7 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer formatted located at the bottom of webpage */
 .footer {
     padding: 30px;
     clear: both;
